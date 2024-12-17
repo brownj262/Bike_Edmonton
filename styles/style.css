@@ -1,0 +1,639 @@
+/* FONT */
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.hanken-grotesk-<uniquifier> {
+  font-family: "Hanken Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+
+body {
+  width: 100%;
+  background-color: #252525;
+}
+
+
+/* GLOBAL STYlES*/
+
+
+h1 {
+  font-family: "Hanken Grotesk";
+  color: white;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+h2 {
+  font-family: "Hanken Grotesk";
+  color: white;;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+h3 {
+  font-family: "Hanken Grotesk";
+  color: white;
+  font-size: 24px;
+  font-weight: 400;
+
+}
+
+h4 {
+  font-family: "Hanken Grotesk";
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+h5 {
+  font-family: "Hanken Grotesk";
+  color: white;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+h6 {
+  font-family: "Hanken Grotesk";
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+h7 {
+  font-family: "Hanken Grotesk";
+  color: white;
+}
+
+p {
+  font-family: "Hanken Grotesk";
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+
+ul {
+  list-style: none;
+  font-family: "Hanken Grotesk";
+  color: white;
+}
+
+ol {
+  font-family: "Hanken Grotesk";
+  color: white;
+}
+
+a {
+  color: white;
+}
+
+#Nav-bar {
+  background-color: rgba(188, 188, 188, 0.81);
+  width: 100%;
+  height: 70px;
+  position: fixed;
+}
+
+#footer-bar {
+  background-color: rgba(255, 255, 255, 0.49);
+  width: 100%;
+  height: 247px;
+}
+
+#sticky {
+  position: fixed;
+  margin-top: 503px;
+}
+
+.Nav-font {
+  color: black;
+  font-family: "Hanken Grotesk";
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.list-nav li {
+  display: inline-block;
+  width: 100%;
+  height: 26px;
+  margin-right: 10px;
+}
+
+.footer li {
+  color: #FFF;
+  font-family: "Hanken Grotesk";
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+.footer h5 {
+  color: #FFF;
+  font-family: "Hanken Grotesk";
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 0%;
+}
+
+.page-header {
+  color: white;
+  font-family: "Hanken Grotesk";
+  font-size: 64px;
+  font-weight: 800;
+}
+
+.subheader_link {
+  color: #FFF;
+  font-family: "Hanken Grotesk";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 300;
+}
+
+.image {
+  width: 100%;
+}
+
+.thin {
+  color: #FFF;
+  font-family: "Hanken Grotesk";
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 0%;
+}
+
+.listing {
+  width: 356px;
+  height: 569px;
+  background-color: rgba(244, 244, 244, 0.86);
+  margin: 28px;
+  padding: 28px;
+}
+
+.listing-title {
+  color: #000;
+  font-family: "Hanken Grotesk";
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.listing-content {
+  color: #000;
+  font-family: "Hanken Grotesk";
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.listing-price {
+  color: #000;
+  font-family: "Hanken Grotesk";
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.listing-link {
+  color: #000;
+  font-family: "Hanken Grotesk";
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.listing-link a {
+  color: black;
+}
+
+.link {
+  color: #FFF;
+  font-family: "Hanken Grotesk";
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.Large_link {
+  color: white;
+  font-family: "Hanken Grotesk";
+  font-size: 64px;
+  font-weight: 500;
+}
+
+.schedule-title {
+  color: #FFF;
+  font-family: "Hanken Grotesk";
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.schedule-day {
+  color: #FFF;
+  font-family: "Hanken Grotesk";
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.schedule {
+  color: #FFF;
+  text-align: center;
+  font-family: "Hanken Grotesk";
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.address {
+  color: #FFF;
+  font-family: "Hanken Grotesk";
+  font-size: 24px;
+  font-weight: 500;
+}
+
+
+.button {
+  color: white;
+  width: 218px;
+  background-color: rgba(255, 255, 255, 0.44);
+  border-radius: 8px;
+  border-style: none;
+  padding: 16px;
+  font-family: "Hanken Grotesk";
+  font-size: 20px;
+  font-weight: 600;
+  margin: 13px;
+  text-decoration: none;
+}
+
+.home-work-font {
+  color: #FFF;
+  font-family: "Hanken Grotesk";
+  font-size: 24px;
+  font-weight: 400;
+}
+
+
+
+/* LAYOUT HOME PAGE AND HEADER & FOOTER */
+
+.grid-Nav {
+  display: grid;
+  grid-template: 1fr / repeat(6, 1fr);
+
+}
+
+.logo-nav {
+  grid-area: 1/1/2/2;
+  padding-left: 15px;
+}
+
+.list-nav {
+  grid-area: 1/2/2/6;
+  display: flex;
+  width: 990px;
+  height: 24px;
+  justify-content: space-between;
+}
+
+.search-nav {
+  grid-area: 1/6/2/7;
+  margin-right: 59px;
+  margin-top: 12px;
+}
+
+.hero-home {
+  display: flex;
+  flex-direction: column;
+  height: 45rem;
+}
+
+.hero-home-tagline {
+  margin: 8rem;
+  padding-right: 200px;
+  margin-bottom: 14rem;
+}
+
+.hero-home-sub {
+  align-self: center;
+}
+
+.hero-home-line {
+  align-self: center;
+}
+
+.home-routes {
+  display: flex;
+  height: 26rem;
+  justify-content: center;
+}
+
+.routes-link {
+  align-self: center;
+}
+
+.home-news {
+  display: grid;
+  grid-template: 1fr 3fr 1fr / 1fr;
+  justify-content: center;
+  height: 44rem;
+}
+
+.news-topline {
+  grid-area: 1/ 1/ 2/ 2;
+  align-self: center;
+  margin-left: 6rem;
+}
+
+.news-bottomline {
+  grid-area: 3/ 1/ 4/ 2;
+  align-self: center;
+  margin-left: 6rem;
+}
+
+.news-news {
+  grid-area: 2/ 1/ 3/ 2;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.news-first {
+  align-self: center;
+  margin-left: 12rem;
+}
+
+.news-next {
+  align-self: center;
+}
+
+.news-second {
+  align-self: center;
+}
+
+.home-work {
+  display: flex;
+}
+
+.work-img {
+  align-self: flex-start;
+  margin-right: 4rem;
+}
+
+.work-text {
+  align-self: flex-start;
+  margin-right: 4rem;
+}
+
+.footer {
+  display: grid;
+  grid-template: repeat(2, 1fr) / 1fr;
+  justify-items: center;
+  height: 247px;
+}
+
+.footer-bottom {
+  grid-area: 2/ 1/ 3/ 2;
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-vision {
+  grid-area: 1/1/2/2;
+  align-self: center;
+
+}
+
+.footer-logo {
+  margin-left: 3rem;
+  flex: 1;
+  align-self: stretch;
+}
+
+.footer-list {
+  flex: 1;
+  align-self: stretch;
+}
+
+.footer-land {
+  flex: 3;
+  align-self: stretch;
+  margin-right: 92px;
+}
+
+
+/* LAYOUT BIKE REPAIRS */
+
+.repair-hero {
+  display: flex;
+  flex-direction: column;
+  height: 700px;
+  justify-content: space-between;
+}
+
+.repair-header {
+  margin-left: 252px;
+  margin-top: 224px;
+}
+
+.schedule-bar {
+  align-self: ;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px;
+
+}
+
+.day {
+  padding-right: 46px;
+  border-right: 1px solid rgba(255, 255, 255, 0.63);
+}
+
+
+
+.workshop {
+  display: grid;
+  grid-template: 1fr / repeat(2, 1fr);
+}
+
+.workshop-title {
+  height: 648px;
+  grid-area: 1 / 1/ 2/2 ;
+}
+
+.workshop-text {
+  grid-area: 1/2/2/3;
+  display: flex;
+  flex-direction: column;
+  width: 538px;;
+}
+
+.workshop-bottom {
+  display: flex;
+  flex-direction: row;
+}
+
+.workshop-buttons {
+  display: flex;
+  flex-direction: column;
+  margin-right: 86px;
+}
+
+
+.mechanic {
+  display: grid;
+  grid-template: 1fr / repeat(2, 1fr);
+}
+
+.mechanic-title {
+  height: 357px;
+  grid-area: 1 / 1/ 2/2 ;
+}
+
+.mechanic-text {
+  grid-area: 1/2/2/3;
+}
+
+
+/* LAYOUT BUY A BIKE */
+
+.buy-hero {
+  display: flex;
+  flex-direction: column;
+  height: 568px;
+  justify-content: space-evenly;
+}
+
+.buy-header-title {
+  align-self: center;
+}
+
+.buy-sublink {
+  align-self: center;
+}
+
+.buy-line {
+  margin-top: 200px;
+  align-self: center;
+}
+
+.buy-filter {
+  display: flex;
+  flex-direction: row;
+  margin-left: 79px;
+  height: 50px;
+}
+
+.filter-icon {
+}
+
+.filter-text {
+  align-content: flex-start;
+}
+
+.price-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+
+.row-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.row-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.row-3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.buy-bottomline {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 500px;
+  padding-left: 630px;
+}
+
+
+/*LAYOUT CYCLIST RESOURCES */
+
+
+.resources-hero {
+  display: flex;
+  flex-direction: column;
+}
+
+.resources-hero-header {
+  align-self: center;
+}
+
+.resources-hero-line {
+  align-self: center;
+}
+
+/* background images */
+
+#home-header {
+  background-image: url(../images/home-hero.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+}
+
+#home-routes {
+  background-image: url(../images/home-routes.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+}
+
+#repair-header {
+  background-image: url(../images/bike-repairs-hero.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+}
+
+#repair-workshop {
+  background-image: url(../images/bike-repairs-workshop.jpg);
+  background-size: 638px 648px;
+  background-repeat: no-repeat;
+  display: flex;
+  align-self: flex-start;
+}
+
+#repair-mechanic {
+  background-image: url(../images/bike-repairs-renta.jpg);
+  background-size: 640px 357px;
+  background-repeat: no-repeat;
+  display: flex;
+  align-self: flex-start; 
+}
+
+#buy-header {
+  background-image: url(../images/buy-bike-hero.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+}
+
+#resources-header {
+  background-image: url(../images/resources-hero.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+}
+
